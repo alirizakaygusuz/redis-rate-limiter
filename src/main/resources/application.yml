@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: redisratelimiter
+  data:
+    redis:
+      host: localhost
+      port: 6380
+
+
