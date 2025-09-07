@@ -6,4 +6,11 @@ spring:
       host: localhost
       port: 6380
 
-
+rate:
+  limiter:
+    balance:
+      limit: 10
+      window-seconds: 60
+    transfer:
+      limit: 3
+      window-seconds: 60
